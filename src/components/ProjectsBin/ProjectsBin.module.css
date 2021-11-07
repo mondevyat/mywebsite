@@ -1,0 +1,205 @@
+.ProjectsBin {
+  display: flex;
+  justify-content: center;
+}
+
+.notepad {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0.25rem;
+
+  width: 650px;
+  height: 450px;
+  background-color: #cbc9cc;
+
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.topPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 6%;
+
+  background: linear-gradient(90deg, #0403a4 0%, #00007e 100%);
+
+  color: white;
+}
+
+.topPanelLeft,
+.topPanelRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topPanelLeft {
+  user-select: none;
+}
+
+.topPanelLeft img {
+  width: 20px;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.topPanelRight div {
+  height: 15px;
+  width: 15px;
+
+  background-color: #cbc9cc;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bolder;
+
+  user-select: none;
+  cursor: pointer;
+
+  border: 2px solid #cbc9cc;
+
+  margin-right: 0.25rem;
+
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.topPanelRight div:active {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.linksPanel {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 6%;
+
+  margin-left: 0.25rem;
+
+  align-items: center;
+}
+
+.linksPanel p {
+  user-select: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.linksPanel p:hover {
+  background-color: #0403a4;
+  color: white;
+}
+
+p.clearAll:active {
+  background-color: white;
+  color: #0403a4;
+}
+
+.bottomPanel {
+  display: flex;
+  flex-direction: row;
+
+  width: 99.2%;
+  height: 81.45%;
+
+  background-color: rgb(241, 241, 241);
+
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.mainPanel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
+
+  padding: .75rem 0 0 1rem;
+}
+
+.Project:not(:nth-child(5n)) {
+    margin-right: 4.5rem;
+}
+
+.ProjectLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+}
+
+.ProjectLink:hover p {
+    color: white;
+    background-color: #00007e;
+}
+
+.ProjectLink:active p {
+    color: white;
+    background-color: #00007e;
+}
+
+.ProjectLink img {
+    width: 64px;
+    height: 64px;
+}
+
+.downPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  width: 99.85%;
+  height: 6%;
+}
+
+.downPanel p {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.leftDownPanel {
+  width: 69.5%;
+  height: 65%;
+
+  margin-right: 0.5%;
+  padding-left: 0.5%;
+
+  border-top: 2px solid #7e7e7e;
+  border-left: 2px solid #7e7e7e;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.rightDownPanel {
+  width: 30%;
+  height: 65%;
+
+  padding-left: 0.5%;
+
+  border-top: 2px solid #7e7e7e;
+  border-left: 2px solid #7e7e7e;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}

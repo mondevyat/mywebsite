@@ -1,0 +1,38 @@
+@font-face {
+  font-family: W95FA;
+  src: url(fonts/W95FA.otf);
+}
+
+body {
+  margin: 0;
+  font-family: W95FA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #047e7e 0%, #039494 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* .Layout {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} */
+
+::selection {background: #0f0793; color:#fff;}
+::-moz-selection {background: #0f0793; color:#fff;}
+::-webkit-selection {background: #0f0793; color:#fff;}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}

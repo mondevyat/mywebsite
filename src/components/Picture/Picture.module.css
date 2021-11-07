@@ -1,0 +1,110 @@
+
+.Picture {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 3rem;
+}
+
+.notepad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0.25rem;
+
+    width: 300px;
+    height: 300px;
+    background-color: #CBC9CC;
+
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.topPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 10.5%;
+
+    background: linear-gradient(90deg, #0403a4 0%, #00007e 100%);
+
+    color: white;
+}
+
+.topPanelLeft, .topPanelRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topPanelLeft {
+    user-select: none;
+}
+
+.topPanelLeft img {
+    width: 20px;
+    margin: 0 0.2rem 0 0.2rem;
+}
+
+.topPanelRight div {
+    height: 15px;
+    width: 15px;
+
+    background-color: #CBC9CC;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+
+    user-select: none;
+    cursor: pointer;
+
+    border: 2px solid #CBC9CC;
+
+    margin-right: 0.25rem;
+    
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.topPanelRight div:active {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.bottomPanel {
+    display: flex; 
+    flex-direction: row;
+
+    width: 99.55%;
+    height: 87.45%;
+
+    background-color: rgb(241, 241, 241);
+
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.mainPanel {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../../img/me2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
